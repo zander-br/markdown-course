@@ -78,39 +78,39 @@ Título 2 (h2)
 Adicionarmos páragrafos no nosso **Markdown** não poderia ser mais fácil, basta apenas adicionarmos o texto que quermos e pronto.
 
 ```markdown
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
 * **_Resultado_**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Porém a única coisa que devemos nos preocupar é que se queremos quebrar linha no nosso texto não basta apenas adicionarmos **Enter** ao código, mais sim adicionarmos dois espaços em branco na linha que queremos quebrar.
 
 ```markdown
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 ```
 
 * **_Resultado_**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 Outra coisa que podemos querer fazer, é adicionarmos um espaço entre um páragrafo e outro, e para isso devemos apenas adicionar dois **Enter** no começo do texto que queremos quebrar.
 
 ```markdown
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
 
 * **_Resultado_**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 [logo]: images/logo.svg
