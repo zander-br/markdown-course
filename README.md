@@ -12,7 +12,7 @@ A ideia desse projeto, é tentar passar o pouco apreendido para ajudar a comunid
 
 * **[Títulos](https://github.com/zander-br/markdown-course#t%C3%ADtulos)**
 
-* Parágrafos
+* **[Parágrafos](https://github.com/zander-br/markdown-course#p%C3%A1ragrafos)**
 
 * Ênfase
 
@@ -112,5 +112,83 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## **Ênfase**
+
+Ênfase é um recurso muito importante, quando queremos destacar algo, ou fazer com que o nosso leitor dê uma maior atenção para aquela palavra um trecho de texto.
+
+No **Markdown** temos várias opções que podemos utilizar para dar ênfase, ou para fazer alguma citação no nosso código, sendo elas.
+
+* Negrito
+
+* Italíco
+
+* Tachado (Riscado)
+
+* Citação
+
+Podemos usar essas opções individualmente, ou em conjunto para alcançarmos um resultado ainda mais legal.
+
+### Negrito
+
+Para adicionarmos negrito temos duas opções, ou usamos dois asteriscos `**` ou também podemos utilizarmos de dois underline `__`. Ambos devem ser colocados no começo e no final do trecho que queremos destacar.
+
+```markdown
+**Lorem**, ipsum dolor sit amet, consectetur.
+
+
+__Lorem__, ipsum dolor sit amet, consectetur.
+```
+
+* **_Resultado_**
+
+**Lorem**, ipsum dolor sit amet, consectetur.
+
+
+__Lorem__, ipsum dolor sit amet, consectetur.
+
+### Italíco
+
+Assim como no negrito, no italíco também temos duas opções para adicionarmos, podendo usar um asteriscos `*` ou também podemos usar de um underline `_`. Ambos devem ser colocados no começo e no final do trecho que queremos destacar.
+
+```markdown
+*Lorem*, ipsum dolor sit amet, consectetur.
+
+
+_Lorem_, ipsum dolor sit amet, consectetur.
+```
+
+* **_Resultado_**
+
+*Lorem*, ipsum dolor sit amet, consectetur.
+
+
+_Lorem_, ipsum dolor sit amet, consectetur.
+
+### Tachado (Riscado)
+
+Para adicionarmos uma palavra ou um trecho de um texto como tachado (riscado) devemos utilizar dois acentos til `~~` no começo e no final do trecho que queremos destacar.
+
+```markdown
+~~Lorem~~, ipsum dolor sit amet, consectetur.
+```
+
+* **_Resultado_**
+
+~~Lorem~~, ipsum dolor sit amet, consectetur.
+
+### Citação
+
+Caso queremos realizar alguma citação em nosso **Markdown** podemos utilizar o sinal de maior que `>` no começo do parágrafo seguido de um espaço para que possamos destaca-lo.
+
+```markdown
+> A vingança nunca é plena malta a alma e envenena
+```
+
+* **_Resultado_**
+
+> A vingança nunca é plena malta a alma e envenena.
+
+Para que possamos adicionar negrito e itálico em uma mesma palavra por exemplo, podemos usar três asteriscos `***` ou três underlines `___`, porém o mais utilizado pela comunidade são as combinações `**_Lorem_**` ou `__*Lorem*__`.
 
 [logo]: images/logo.svg
