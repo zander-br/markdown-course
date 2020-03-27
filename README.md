@@ -205,6 +205,7 @@ A vingança nunca é plena malta a alma e envenena
 ---
 ```
 
+* **_Resultado_**
 ***
 A vingança nunca é plena malta a alma e envenena
 
@@ -220,7 +221,58 @@ Outra coisa que podemos fazer também caso desejamos é completar toda a linha c
 
 ## Listas não ordenadas
 
-Estamos criando ainda. :blush:
+Listas não ordenadas é um recurso muito importante, pois permite criarmos tópicos de textos para uma melhor exemplificação sobre determinados assuntos.
+
+Para criarmos listas não ordenadas no **Markdown** é muito simples do que criamos no HTML. Para isso temos duas opções, ou usamos o asterisco `*` ou podemos usar também o sinal de menos `-`, ambos seguidos por espaço entre os itens.
+
+```markdown
+Produtos
+
+* Item 01
+* Item 02
+* Item 03
+```
+
+* **_Resultado_**
+
+Produtos
+
+* Item 01
+* Item 02
+* Item 03
+
+Como informado anteriormente também podemos criar utilizando o sinal de menos `-`.
+
+```markdown
+Produtos
+
+- Item 01
+- Item 02
+- Item 03
+```
+
+Caso desejamos criar uma lista não ordenada com subitens também podemos e de maneira simples e fácil, basta na frente de cada subitem adicionarmos um **TAB** ou dois espaços.
+
+```markdown
+Sumário
+
+* Item 01
+  * SubItem 01
+  * SubItem 02
+* Item 02
+  * SubItem 02
+* Item 03
+```
+
+* **_Resultado_**
+
+Sumário
+
+* Item 01
+  * SubItem 01
+  * SubItem 02
+* Item 02
+* Item 03
 
 ***
 
