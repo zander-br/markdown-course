@@ -14,7 +14,7 @@ A ideia desse projeto, é tentar passar o pouco apreendido para ajudar a comunid
 
 * **[Parágrafos](https://github.com/zander-br/markdown-course#p%C3%A1ragrafos)**
 
-* Ênfase
+* **[Ênfase](https://github.com/zander-br/markdown-course#%C3%AAnfase)**
 
 * Linhas horizontais
 
@@ -73,6 +73,7 @@ Título 2 (h2)
 > Para o Título 1 (h1) na próxima linha subsequente adicionamos o sinal de igual `=`, já para o nosso Título 2 (h2) na linha subsequente adicionamos o sinal de menos `-`.
 
 
+***
 ## **Páragrafos**
 
 Adicionarmos páragrafos no nosso **Markdown** não poderia ser mais fácil, basta apenas adicionarmos o texto que quermos e pronto.
@@ -113,19 +114,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
+***
 ## **Ênfase**
 
 Ênfase é um recurso muito importante, quando queremos destacar algo, ou fazer com que o nosso leitor dê uma maior atenção para aquela palavra um trecho de texto.
 
 No **Markdown** temos várias opções que podemos utilizar para dar ênfase, ou para fazer alguma citação no nosso código, sendo elas.
 
-* Negrito
+* [Negrito](https://github.com/zander-br/markdown-course#negrito)
 
-* Italíco
+* [Italíco](https://github.com/zander-br/markdown-course#ital%C3%ADco)
 
-* Tachado (Riscado)
+* [Tachado (Riscado)](https://github.com/zander-br/markdown-course#tachado-riscado)
 
-* Citação
+* [Citação](https://github.com/zander-br/markdown-course#cita%C3%A7%C3%A3o)
 
 Podemos usar essas opções individualmente, ou em conjunto para alcançarmos um resultado ainda mais legal.
 
@@ -190,5 +192,72 @@ Caso queremos realizar alguma citação em nosso **Markdown** podemos utilizar o
 > A vingança nunca é plena malta a alma e envenena.
 
 Para que possamos adicionar negrito e itálico em uma mesma palavra por exemplo, podemos usar três asteriscos `***` ou três underlines `___`, porém o mais utilizado pela comunidade são as combinações `**_Lorem_**` ou `__*Lorem*__`.
+
+***
+## **Linhas horizontais**
+
+Linhas horizontais são muito uteis quando queremos realizar alguma separação dos conteúdos para facilitar a leitura. No **Markdown** temos duas opções de fazermos isso, ao qual ambas também possuem pequenas váriações.
+
+```markdown
+***
+A vingança nunca é plena malta a alma e envenena
+
+---
+```
+
+***
+A vingança nunca é plena malta a alma e envenena
+
+---
+
+Podemos utilizar de três asteriscos `***` ou de três sinais de menos `---`. Uma variação que podemos usar é adicionarmos espaços entre os asteriscos `* * *` ou entre os sinais de menos `- - -`.
+
+Outra coisa que podemos fazer também caso desejamos é completar toda a linha com asteriscos ou sinais de menos, porém isso é algo totalmente opcional e ao mesmo tempo gera apenas uma estética para o seu arquivo.
+
+> Lembrando que possamos adicionar nossa linha vertical é necessário termos ou três asteriscos ou três sinais de menos com ou sem espaço entre eles.
+
+***
+
+## Listas não ordenadas
+
+Estamos criando ainda. :blush:
+
+***
+
+## Listas ordenadas
+
+Estamos criando ainda. :blush:
+
+***
+
+## Links
+
+Estamos criando ainda. :blush:
+
+***
+
+## Imagens
+
+Estamos criando ainda. :blush:
+
+***
+
+## Tabelas
+
+Estamos criando ainda. :blush:
+
+***
+
+## Códigos
+
+Estamos criando ainda. :blush:
+
+***
+
+## Github
+
+Estamos criando ainda. :blush:
+
+***
 
 [logo]: images/logo.svg
