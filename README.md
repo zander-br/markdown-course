@@ -384,7 +384,43 @@ Campeões da Copa Mundial
 
 ## Links
 
-Estamos criando ainda. :blush:
+Algo que com certeza não deve faltar em uma boa documentação, são os links pois eles são muito uteis ou para facilitar na navegação durante a leitura do usuário ou para fornecer mais informações importantes para compreensão da mensagem, podendo ser um link para uma guia de instalação ou para outra documentação de outro projeto.
+
+Para criarmos um link no **Markdown** basta informarmos dentro colchetes `[]` o nome que será informado para o usuário de entre parênteses `()` informamos o link.
+
+```markdown
+[Instalação GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+```
+
+* **_Resultado_**
+
+[Instalação GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+Algo que podemos adicionarmos aos nossos links para melhorar a usabilidade são os nomes que aparecerão quando o cursor do mouse estiver por cima do link, para isso basta dentro dos parênteses `()` e posteriormente ao link informado, adicionarmos um espaço e entre aspas duplas `""` informamos o texto desejado.
+
+```markdown
+[Instalação GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git "Instalação GIT")
+```
+
+* **_Resultado_**
+
+[Instalação GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git "Instalação GIT")
+
+Outra coisa que podemos fazer em nossos links é criarmos uma váriavel contendo a url do mesmo, para isso basta dentro de colchetes `[]` informar o nome da váriavel depois adicionarmos dois pontos `:` e o valor da mesma.
+
+Nessa abordagem a definição de um link muda um pouco ao qual informaremos agora entre colchetes `[]` o nome para o nosso link e novamente dentro dos colchetes `[]` informamos o nome da nossa variável.
+
+```markdown
+[Instalação GIT][git-url]
+
+[git-url]:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+```
+
+* **_Resultado_**
+
+[Instalação GIT][git-url]
+
+[git-url]:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ***
 
