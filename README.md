@@ -286,7 +286,99 @@ Sumário
 
 ## Listas ordenadas
 
-Estamos criando ainda. :blush:
+Assim com as listas não ordenadas, as listas ordenadas são muito importantes para exemplicação de nossos conteúdos. Da mesma maneira definir listar ordenadas no **Markdown** é algo muito simples.
+
+Para essa criação necessitamos apenas informar o **número** a partir de qual queremos que nossa lista inicie seguida do ponto `.` e do espaço.
+
+```markdown
+Sumário
+
+1. Item 01
+2. Item 02
+3. Item 03
+```
+
+* **_Resultado_**
+
+Sumário
+
+1. Item 01
+2. Item 02
+3. Item 03
+
+Podemos facilmente iniciarmos a nossa contagem a partir de outro número e não necessariamente do número 1.
+
+```markdown
+Sumário
+
+8. Item 01
+9. Item 02
+10. Item 03
+```
+
+* **_Resultado_**
+
+Sumário
+
+8. Item 01
+9. Item 02
+10. Item 03
+
+Mesmo sendo algo extremamente simples de implementarmos as listas ordenadas possuem alguns particularidades.
+
+Caso informamos os mesmos números para todos os itens, a lista automaticamente segue a sequência de forma crescente.
+
+```markdown
+Sumário
+
+1. Item 01
+1. Item 02
+1. Item 03
+```
+
+* **_Resultado_**
+
+Sumário
+
+1. Item 01
+1. Item 02
+1. Item 03
+
+Caso também informamos os itens de maneira desordenada, a lista ordenada irá gerar uma nova sequência baseada no primeiro item da lista.
+
+```markdown
+Sumário
+
+8. Item 01
+5. Item 02
+3. Item 03
+```
+
+* **_Resultado_**
+
+Sumário
+
+8. Item 01
+5. Item 02
+3. Item 03
+
+Com base nessas informações você deve estar se perguntando e caso eu queira fazer uma lista ordenada com a sequência que eu passar para ela? A solução também é bem simples basta colocarmos o número desejado seguido de um caracter de escape e do ponto `\.` e posteriormente do espaço.
+
+```markdown
+Campeões da Copa Mundial
+
+1994\. Brasil  
+1998\. França  
+2002\. Brasil  
+```
+
+* **_Resultado_**
+
+Campeões da Copa Mundial
+
+1994\. Brasil  
+1998\. França  
+2002\. Brasil 
 
 ***
 
