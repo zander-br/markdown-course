@@ -251,6 +251,14 @@ Produtos
 - Item 03
 ```
 
+* **_Resultado_**
+
+Produtos
+
+- Item 01
+- Item 02
+- Item 03
+
 Caso desejamos criar uma lista não ordenada com subitens também podemos e de maneira simples e fácil, basta na frente de cada subitem adicionarmos um **TAB** ou dois espaços.
 
 ```markdown
