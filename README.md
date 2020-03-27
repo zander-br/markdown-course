@@ -16,21 +16,21 @@ A ideia desse projeto, é tentar passar o pouco apreendido para ajudar a comunid
 
 * **[Ênfase](https://github.com/zander-br/markdown-course#%C3%AAnfase)**
 
-* Linhas horizontais
+* **[Linhas horizontais](https://github.com/zander-br/markdown-course#linhas-horizontais)**
 
-* Listas não ordenadas
+* **[Listas não ordenadas](https://github.com/zander-br/markdown-course#listas-n%C3%A3o-ordenadas)**
 
-* Listas ordenadas
+* **[Listas ordenadas](https://github.com/zander-br/markdown-course#listas-ordenadas)**
 
-* Links
+* **[Links](https://github.com/zander-br/markdown-course#links)**
 
-* Imagens
+* **[Imagens](https://github.com/zander-br/markdown-course#imagens)**
 
-* Tabelas
+* **[Tabelas](https://github.com/zander-br/markdown-course#tabelas)**
 
-* Códigos
+* **[Códigos](https://github.com/zander-br/markdown-course#c%C3%B3digos)**
 
-* Github
+* **[Github](https://github.com/zander-br/markdown-course#github)**
 
 ## Títulos
 
@@ -123,7 +123,7 @@ No **Markdown** temos várias opções que podemos utilizar para dar ênfase, ou
 
 * [Negrito](https://github.com/zander-br/markdown-course#negrito)
 
-* [Itálico](https://github.com/zander-br/markdown-course#ital%C3%ADco)
+* [Itálico](https://github.com/zander-br/markdown-course#it%C3%A1lico)
 
 * [Tachado (Riscado)](https://github.com/zander-br/markdown-course#tachado-riscado)
 
