@@ -6,7 +6,7 @@
 
 **[Markdown](https://daringfireball.net/projects/markdown/)** é uma linguagem de marcação criada por **Jonh Gruber** e **[Aaron Swartz](https://pt.wikipedia.org/wiki/Aaron_Swartz)**. Markdown converte seu texto em **[HTML](https://developer.mozilla.org/docs/Web/HTML)** válido.
 
-A ideia desse projeto, é tentar passar o pouco apreendido para ajudar a comunidade no apredizado dessa linguagem de marcação que é tão importante para valorizar os nossos projetos.
+A ideia desse projeto, é tentar passar o pouco aprendido para ajudar a comunidade no apredizado dessa linguagem de marcação que é tão importante para valorizar os nossos projetos.
 
 ## **Índice**
 
