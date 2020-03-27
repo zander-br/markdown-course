@@ -123,7 +123,7 @@ No **Markdown** temos várias opções que podemos utilizar para dar ênfase, ou
 
 * [Negrito](https://github.com/zander-br/markdown-course#negrito)
 
-* [Italíco](https://github.com/zander-br/markdown-course#ital%C3%ADco)
+* [Itálico](https://github.com/zander-br/markdown-course#ital%C3%ADco)
 
 * [Tachado (Riscado)](https://github.com/zander-br/markdown-course#tachado-riscado)
 
@@ -149,9 +149,9 @@ __Lorem__, ipsum dolor sit amet, consectetur.
 
 __Lorem__, ipsum dolor sit amet, consectetur.
 
-### Italíco
+### Itálico
 
-Assim como no negrito, no italíco também temos duas opções para adicionarmos, podendo usar um asteriscos `*` ou também podemos usar de um underline `_`. Ambos devem ser colocados no começo e no final do trecho que queremos destacar.
+Assim como no negrito, no itálico também temos duas opções para adicionarmos, podendo usar um asteriscos `*` ou também podemos usar de um underline `_`. Ambos devem ser colocados no começo e no final do trecho que queremos destacar.
 
 ```markdown
 *Lorem*, ipsum dolor sit amet, consectetur.
