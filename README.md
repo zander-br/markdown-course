@@ -548,7 +548,157 @@ Para alinhamentos a esquerda basta adicionarmos o sinal de dois pontos no lado e
 
 ## Códigos
 
-Estamos criando ainda. :blush:
+Chegamos agora em um ponto que é extremante importante para uma boa documentação, principamente para bibliotecas, projetos de código aberto, e sem sombra de dúvida estamos falando dos exemplos de códigos para ajudar aquele nosso amiguinho.
+
+No **Markdown** demos duas forma de demostrar nosso código, podendo ser *inline*, ou seja, na própria linha que estamos escrevendo, ou criando um bloco de códigos. Também temos um pequeno plus que são o **_Syntax Highlighting_** essa opção sem dúvida é a cereja do bolo.
+
+* [Inline](https://github.com/zander-br/markdown-course#inlene)
+
+* [Bloco](https://github.com/zander-br/markdown-course#bloco)
+
+* [Syntax Highlighting](https://github.com/zander-br/markdown-course#syntax-highlighting)
+
+### Inline
+
+Como já comentado anteriormente a inserção de códigos *inline* (na linha) é muito importante quando estamos decorrendo sobre um determinado assunto e queremos informar um pequeno trecho de código, ou uma chamada de um metódo ou função.
+
+Para que possamos adicionar um código *inline* no **Markdown** basta que informamos o mesmo dentro do acento de grave ``(`)`` representado aqui dentro dos parânteses.
+
+```markdown
+Passe o `username` e `password` como parâmetros para a função `login()`.
+```
+* **_Resultado_**
+
+Passe o `username` e `password` como parâmetros para a função `login()`.
+
+Em linguagens como por exemplo o **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** temos uma funcionalidade nas strings chamado **[Template string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)** que faz uso do acento grave para realizar concatenação de textos.
+
+Nesse caso devemos fazer o escape de caracteres para que possamos conseguir o mesmo resultado.
+
+```markdown
+``const message = `My name is ${name}`;``
+```
+* **_Resultado_**
+
+``const message = `My name is ${name}`;``
+
+> O exemplo acima foi desenvolvido utilizando a linguagem **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** assim como os exemplos subsequentes. 
+
+### Bloco
+
+Muitas vezes o que queremos fazer é mostrar uma grande qualidade de código, para que façamos isso também é muito simples, e temos mais que uma opção para alcançar o mesmo resultado.
+
+A primeira opção é na frente do bloco de código que queremos adicionar, inserirmos dois `TABs` ou quatro espaços.
+
+```markdown
+    // login.js
+
+    const username = 'zander-br';
+    const password = 'secret';
+
+    login(username, password);
+```
+* **_Resultado_**
+
+```
+// login.js
+
+const username = 'zander-br';
+const password = 'secret';
+
+login(username, password);
+```
+
+Porém a forma mais usada pela comunidade é o uso de três assentos graves antes do código (uma linha acima) e depois do código (uma linha abaixo).
+
+<pre lang="no-highlight"><code>```
+  // login.js
+
+
+  const username = 'zander-br';
+  const password = 'secret';
+
+
+  login(username, password);
+```
+</code></pre>
+
+* **_Resultado_**
+
+```
+  // login.js
+
+
+  const username = 'zander-br';
+  const password = 'secret';
+
+
+  login(username, password);
+```
+
+### Syntax Highlighting
+
+
+Como comentado anteriormente, chegamos agora a cereja do bolo, pois o uso de *Syntax Highlighting* não somente cria para nós uma bloco de código como também realça o mesmo com cores.
+
+```javascript
+  // login.js
+
+
+  const username = 'zander-br';
+  const password = 'secret';
+
+
+  login(username, password);
+```
+
+O que achou desse código? Legal né? Você deve estar se perguntando qual a mágica que foi usada aqui, ou então afirmando... Isso deve ser muito dificil de fazer.
+
+Se se eu falar que tudo que você deve fazer é informar na frente dos três primeiros acentos graves o nome da linguagem e caixa baixa.
+
+<pre lang="no-highlight"><code>```javascript
+  // login.js
+
+
+  const username = 'zander-br';
+  const password = 'secret';
+
+
+  login(username, password);
+```
+</code></pre>
+
+* **_Resultado_**
+
+```javascript
+  // login.js
+
+
+  const username = 'zander-br';
+  const password = 'secret';
+
+
+  login(username, password);
+```
+
+Nesse momento você deve estar falando, mais isso funciona apenas para javascript... Então o que acha desse trecho de código em **[Ruby](https://www.ruby-lang.org/)**.
+
+<pre lang="no-highlight"><code>```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+</code></pre>
+
+* **_Resultado_**
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+Muito legal né? Porém você deve informar apenas uma liguagem por blocos de códigos. Outra dica interessante é que no caso do **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** podemos usar `javascript` ou simplesmente `js`.
 
 ***
 
