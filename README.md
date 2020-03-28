@@ -744,6 +744,8 @@ Curso de markdown no Github
 
 Como informado no começo desse conteúdo, a ideia desse repositório surgiu para ajudar na fixação dos conteúdos que eu estava estudando e de quebra ajudar mais pessoas :relaxed: então para isso eu usei alguns materiais, caso queira dar uma olhada segue os links abaixo.
 
+* **[Site oficial de Markdown](https://daringfireball.net/projects/markdown)**
+
 * **[Markdown-Here](https://github.com/adam-p/markdown-here)**
 
 * **[Creating and highlighting code blocks](https://help.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks)**
@@ -751,6 +753,8 @@ Como informado no começo desse conteúdo, a ideia desse repositório surgiu par
 * **[Aprenda Markdown](https://www.udemy.com/course/aprenda-markdown/)**
 
 * **[Guia básico de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)**
+
+* **[Changing image size in Markdown](https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown)**
 
 ***
 
