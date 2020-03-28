@@ -465,14 +465,12 @@ Algo que podemos adicionar em nossas imagens são os links, ao qual permite que 
 A essa altura você já deve estar se perguntando, mais como faço para alterar o tamanho da minha imagem? Nesse caso o **Markdown** não possui suporte para esse tipo de situação, porém como solução podemos fazer uso da tag `img` do HTML, conforme exemplo abaixo.
 
 ```markdown
-<img src="images/vinganca.jpg" width="100px;" alt="Henrique Tavares"/>
+<img src="images/vinganca.jpg" width="100px;" alt="Seu Madruga"/>
 ```
 
 * **_Resultado_**
 
-<img src="images/vinganca.jpg" width="200px;" alt="Seu Madruga"/>
-
-***
+<img src="images/vinganca.jpg" width="100px;" alt="Seu Madruga"/>
 
 ***
 
