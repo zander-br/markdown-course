@@ -32,9 +32,9 @@ A ideia desse projeto, é tentar passar o pouco aprendido para ajudar a comunida
 
 * **[Github](https://github.com/zander-br/markdown-course#github)**
 
-* **[Referências](https://github.com/zander-br/markdown-course#github)**
+* **[Referências](https://github.com/zander-br/markdown-course#refer%C3%AAncias)**
 
-* **[Dicas](https://github.com/zander-br/markdown-course#github)**
+* **[Dicas](https://github.com/zander-br/markdown-course#dicas)**
 
 ## Títulos
 
@@ -708,7 +708,35 @@ Muito legal né? Porém você deve informar apenas uma liguagem por blocos de c�
 
 ## Github
 
-Estamos criando ainda. :blush:
+E para finalizar vou dar algumas dicas sobre o uso de **Markdown** no **[GitHub](https://github.com/)** que irá turbinar ainda mais o seus conhecimentos e também ajudar ainda mais nas suas contribuições.
+
+No **[GitHub](https://github.com/)** podemos fazer uso de emojis :heart_eyes: é isso mesmo que você entendeu você pode adicionar emojis tanto em mensagens de commits, quanto no seu **README.md** e também nas *Issues* do **[GitHub](https://github.com/)**.
+
+Para isso basta adicionar entre dois pontos `:` o nome do emoji que deseja adicionar. E para facilitar a sua vida estarei deixando aqui uma lista com todos esses emojis **[Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)**.
+
+```markdown
+Estou estou :heart_eyes: esse conteúdo, simplesmente ficou show! :relaxed:
+```
+* **_Resultado_**
+
+Estou estou :heart_eyes: esse conteúdo, simplesmente ficou show! :relaxed:
+
+Outra coisa que podemos fazer é adicionarmos uma lista de **Todo** das pendências ou coisas que precisam ser desenvolvidas em uma *issues*. Para isso basta adicionar dois colchetes `[]` e entre eles adicionar um espaço. Caso o item tenha sido finalizado basta adiconar uma letra `x`.
+
+```markdown
+Curso de markdown no Github
+
+* [x] Estudar sobre markdown :books:
+* [ ] Deixar uma estrela no repositório :star:
+* [ ] Indicar para os meus amigos :family:
+```
+* **_Resultado_**
+
+Curso de markdown no Github
+
+* [x] Estudar sobre markdown :books:
+* [ ] Deixar uma estrela no repositório :star:
+* [ ] Indicar para os meus amigos :family:
 
 ***
 
