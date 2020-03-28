@@ -32,6 +32,10 @@ A ideia desse projeto, é tentar passar o pouco aprendido para ajudar a comunida
 
 * **[Github](https://github.com/zander-br/markdown-course#github)**
 
+* **[Referências](https://github.com/zander-br/markdown-course#github)**
+
+* **[Dicas](https://github.com/zander-br/markdown-course#github)**
+
 ## Títulos
 
 O títulos são muito importantes para que possamos organizar os nossos documentos, e no Markdown não é diferente.
@@ -552,7 +556,7 @@ Chegamos agora em um ponto que é extremante importante para uma boa documentaç
 
 No **Markdown** demos duas forma de demostrar nosso código, podendo ser *inline*, ou seja, na própria linha que estamos escrevendo, ou criando um bloco de códigos. Também temos um pequeno plus que são o **_Syntax Highlighting_** essa opção sem dúvida é a cereja do bolo.
 
-* [Inline](https://github.com/zander-br/markdown-course#inlene)
+* [Inline](https://github.com/zander-br/markdown-course#inline)
 
 * [Bloco](https://github.com/zander-br/markdown-course#bloco)
 
@@ -707,5 +711,16 @@ Muito legal né? Porém você deve informar apenas uma liguagem por blocos de c�
 Estamos criando ainda. :blush:
 
 ***
+
+## Referências
+
+Estamos criando ainda. :blush:
+
+***
+
+## Dicas
+
+Estamos criando ainda. :blush:
+
 
 [logo]: images/logo.svg
