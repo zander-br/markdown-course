@@ -426,7 +426,53 @@ Nessa abordagem a definição de um link muda um pouco ao qual informaremos agor
 
 ## Imagens
 
-Estamos criando ainda. :blush:
+Algo que enriquece bastante uma documentação sem dúvida são as imagens, podendo ser uma captura de tela que mostra aquele seu layout bacana. Como se dizem uma imagem vale mais que mil palavras.
+
+O processo de inserção de imagens no **Markdown** é bastante semelhante a crianção de um **[Link](https://github.com/zander-br/markdown-course#links)** diferenciando apenas que para as imagens temos que adicionar no começo um sinal de exclamação `!`.
+
+```markdown
+![Seu Madruga](images/vinganca.jpg)
+```
+
+* **_Resultado_**
+
+![Seu Madruga](images/vinganca.jpg)
+
+Assim com nos **[Links](https://github.com/zander-br/markdown-course#links)** também podemos usar uma váriavel para armazenar o endereço da nossa imagem.
+
+```markdown
+![Seu Madruga][vinganca-img]
+
+[vinganca-img]:images/vinganca.jpg
+```
+
+* **_Resultado_**
+
+![Seu Madruga][vinganca-img]
+
+[vinganca-img]:images/vinganca.jpg
+
+Algo que podemos adicionar em nossas imagens são os links, ao qual permite que o usuário navegue para a mesma após clicar sobre. E para isso devemos apenas envolver a nossa declaração da imagem `![nome](endereco)` ou `![nome][variavel-endereco]` dentro dos colchetes `[]`, e posteriormente dentro dos meus parênteses `()` ou colchetes `[]` caso estejamos usando váriaveis para nosso link informamos o endereço de destino `[![nome](endereco)](url)`. 
+
+```markdown
+[![Seu Madruga](images/vinganca.jpg)](https://github.com/zander-br/markdown-course/blob/master/images/vinganca.jpg)
+```
+
+* **_Resultado_**
+
+[![Seu Madruga](images/vinganca.jpg)](https://github.com/zander-br/markdown-course/blob/master/images/vinganca.jpg)
+
+A essa altura você já deve estar se perguntando, mais como faço para alterar o tamanho da minha imagem? Nesse caso o **Markdown** não possui suporte para esse tipo de situação, porém como solução podemos fazer uso da tag `img` do HTML, conforme exemplo abaixo.
+
+```markdown
+<img src="images/vinganca.jpg" width="100px;" alt="Henrique Tavares"/>
+```
+
+* **_Resultado_**
+
+<img src="images/vinganca.jpg" width="200px;" alt="Seu Madruga"/>
+
+***
 
 ***
 
