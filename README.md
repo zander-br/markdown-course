@@ -476,7 +476,73 @@ A essa altura você já deve estar se perguntando, mais como faço para alterar 
 
 ## Tabelas
 
-Estamos criando ainda. :blush:
+Outra coisa que temos disponível no **Markdown** e nos auxilia bastante nas nossas documentações são as tabelas, com elas podemos demostrar o retorno de alguma informação, organizar as dependências do projetos com links para seus respectivos repositórios e por aí vai.
+
+E para criarmos as nossas tabelas no **Markdown** não poderia ser mais simples basta encapsularmos nossos valores das colunas dentro de um pipe `|` da seguinte forma `| coluna |` colocando sempre um espaço entre os pipes e o conteúdo. Uma pequena atenção que precisamos ter é que no caso dos cabeçalhos da tabela na próxima linha subsequente devemos adicionar um sinal de menos `-` representando as colunas. Com o exemplo tudo irá ficar mais simples.
+
+```markdown
+| Nome | Idade |
+| - | - |
+| Anderson | 30 |
+```
+
+* **_Resultado_**
+
+| Nome | Idade |
+| - | - |
+| Anderson | 30 |
+
+Opcionalmente podemos alinharmos o pipe `|` no nosso documento, porém isso não gera resultado diferente na documentação, apenas algo estético.
+
+```markdown
+| Nome     | Idade |
+| -------- | ----- |
+| Anderson | 30    |
+```
+
+* **_Resultado_**
+
+| Nome     | Idade |
+| -------- | ----- |
+| Anderson | 30    |
+
+Mais como fica em tabelas maiores? Montei um examplo um pouco maior para demostrar o resultado.
+
+```markdown
+| Nome | Idade | Profissão |
+| ---- | ----- | --------- |
+| Anderson Santos | 30 | Programador |
+| Alvo Dumbledore | 150 | Diretor |
+| McGonagall | 70 | Professora |
+```
+
+* **_Resultado_**
+
+| Nome | Idade | Profissão |
+| ---- | ----- | --------- |
+| Anderson Santos | 30 | Programador |
+| Alvo Dumbledore | 150 | Diretor |
+| McGonagall | 70 | Professora |
+
+Caso seja necessário também, podemos utilizar alinhamentos em nossas tabelas, e para fazermos isso basta adicionarmos sinal de dois pontos `:` na  linha que vem logo após o cabeçalho e juntamente com o sinal de menos `-`.
+
+Para alinhamentos a esquerda basta adicionarmos o sinal de dois pontos no lado esquerdo do sinal de menos `:-`, para alinhamentos a direita posicionamentos a direita `-:` e para alinhamentos ao centro colocamos o sinal de menos entre o sinal de dois pontos `:-:`. Simples assim, mais de qualquer forma vamos demostrar no exemplo abaixo.
+
+```markdown
+| Nome (esquerda) | Idade (centro) | Profissão (direita) |
+| :-------------- | :------------: | ------------------: |
+| Anderson Santos |       30       |     Programador     |
+| Alvo Dumbledore |       150      |       Diretor       |
+| McGonagall      |       70       |      Professora     |
+```
+
+* **_Resultado_**
+
+| Nome (esquerda) | Idade (centro) | Profissão (direita) |
+| :-------------- | :------------: | ------------------: |
+| Anderson Santos |       30       |     Programador     |
+| Alvo Dumbledore |       150      |       Diretor       |
+| McGonagall      |       70       |      Professora     |
 
 ***
 
