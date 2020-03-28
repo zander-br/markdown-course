@@ -760,7 +760,6 @@ Como informado no começo desse conteúdo, a ideia desse repositório surgiu par
 
 ## Dicas
 
-Estamos criando ainda. :blush:
-
+E por fim, queria deixar uma dica muito legal do [Willian Justen](https://github.com/willianjusten) para você que precisa de um boilerplate de **README.md** para o seu projeto bastar baixar desse repositório [Awesome README](https://github.com/matiassingers/awesome-readme).
 
 [logo]: images/logo.svg
