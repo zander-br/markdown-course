@@ -760,6 +760,10 @@ Como informado no começo desse conteúdo, a ideia desse repositório surgiu par
 
 ## Dicas
 
-E por fim, queria deixar uma dica muito legal do [Willian Justen](https://github.com/willianjusten) para você que precisa de um boilerplate de **README.md** para o seu projeto bastar baixar desse repositório [Awesome README](https://github.com/matiassingers/awesome-readme).
+E por fim, queria deixar uma dica muito legal do [Willian Justen](https://github.com/willianjusten) para você que precisa de uma ideia de **README.md** aqui [Awesome README](https://github.com/matiassingers/awesome-readme) você irá encontrar vários examplos, basta escolher o que mais agrada você.
+
+Caso você prefira um template de **README.md**, fica uma dica muito legal de um gist da [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+
+Uma dica que não está relacionado a **Markdown** mais como todos projetos precisam, fica mais como um plus. Caso você precise de um arquivo de licença nesse site irá lhe ajudar nessa tarefa [Open Source Initiative](https://opensource.org/licenses)
 
 [logo]: images/logo.svg
