@@ -10,31 +10,31 @@ A ideia desse projeto, é tentar passar o pouco aprendido para ajudar a comunida
 
 ## **Índice**
 
-* **[Títulos](https://github.com/zander-br/markdown-course#t%C3%ADtulos)**
+* **[Títulos](#t%C3%ADtulos)**
 
-* **[Parágrafos](https://github.com/zander-br/markdown-course#p%C3%A1ragrafos)**
+* **[Parágrafos](#p%C3%A1ragrafos)**
 
-* **[Ênfase](https://github.com/zander-br/markdown-course#%C3%AAnfase)**
+* **[Ênfase](#%C3%AAnfase)**
 
-* **[Linhas horizontais](https://github.com/zander-br/markdown-course#linhas-horizontais)**
+* **[Linhas horizontais](#linhas-horizontais)**
 
-* **[Listas não ordenadas](https://github.com/zander-br/markdown-course#listas-n%C3%A3o-ordenadas)**
+* **[Listas não ordenadas](#listas-n%C3%A3o-ordenadas)**
 
-* **[Listas ordenadas](https://github.com/zander-br/markdown-course#listas-ordenadas)**
+* **[Listas ordenadas](#listas-ordenadas)**
 
-* **[Links](https://github.com/zander-br/markdown-course#links)**
+* **[Links](#links)**
 
-* **[Imagens](https://github.com/zander-br/markdown-course#imagens)**
+* **[Imagens](#imagens)**
 
-* **[Tabelas](https://github.com/zander-br/markdown-course#tabelas)**
+* **[Tabelas](#tabelas)**
 
-* **[Códigos](https://github.com/zander-br/markdown-course#c%C3%B3digos)**
+* **[Códigos](#c%C3%B3digos)**
 
-* **[Github](https://github.com/zander-br/markdown-course#github)**
+* **[Github](#github)**
 
-* **[Referências](https://github.com/zander-br/markdown-course#refer%C3%AAncias)**
+* **[Referências](#refer%C3%AAncias)**
 
-* **[Dicas](https://github.com/zander-br/markdown-course#dicas)**
+* **[Dicas](#dicas)**
 
 ## Títulos
 
@@ -125,13 +125,13 @@ Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 No **Markdown** temos várias opções que podemos utilizar para dar ênfase, ou para fazer alguma citação no nosso código, sendo elas.
 
-* [Negrito](https://github.com/zander-br/markdown-course#negrito)
+* [Negrito](#negrito)
 
-* [Itálico](https://github.com/zander-br/markdown-course#it%C3%A1lico)
+* [Itálico](#it%C3%A1lico)
 
-* [Tachado (Riscado)](https://github.com/zander-br/markdown-course#tachado-riscado)
+* [Tachado (Riscado)](#tachado-riscado)
 
-* [Citação](https://github.com/zander-br/markdown-course#cita%C3%A7%C3%A3o)
+* [Citação](#cita%C3%A7%C3%A3o)
 
 Podemos usar essas opções individualmente, ou em conjunto para alcançarmos um resultado ainda mais legal.
 
@@ -432,7 +432,7 @@ Nessa abordagem a definição de um link muda um pouco ao qual informaremos agor
 
 Algo que enriquece bastante uma documentação sem dúvida são as imagens, podendo ser uma captura de tela que mostra aquele seu layout bacana. Como se dizem uma imagem vale mais que mil palavras.
 
-O processo de inserção de imagens no **Markdown** é bastante semelhante a crianção de um **[Link](https://github.com/zander-br/markdown-course#links)** diferenciando apenas que para as imagens temos que adicionar no começo um sinal de exclamação `!`.
+O processo de inserção de imagens no **Markdown** é bastante semelhante a crianção de um **[Link](#links)** diferenciando apenas que para as imagens temos que adicionar no começo um sinal de exclamação `!`.
 
 ```markdown
 ![Seu Madruga](images/vinganca.jpg)
@@ -442,7 +442,7 @@ O processo de inserção de imagens no **Markdown** é bastante semelhante a cri
 
 ![Seu Madruga](images/vinganca.jpg)
 
-Assim com nos **[Links](https://github.com/zander-br/markdown-course#links)** também podemos usar uma váriavel para armazenar o endereço da nossa imagem.
+Assim com nos **[Links](#links)** também podemos usar uma váriavel para armazenar o endereço da nossa imagem.
 
 ```markdown
 ![Seu Madruga][vinganca-img]
@@ -556,11 +556,11 @@ Chegamos agora em um ponto que é extremante importante para uma boa documentaç
 
 No **Markdown** demos duas forma de demostrar nosso código, podendo ser *inline*, ou seja, na própria linha que estamos escrevendo, ou criando um bloco de códigos. Também temos um pequeno plus que são o **_Syntax Highlighting_** essa opção sem dúvida é a cereja do bolo.
 
-* [Inline](https://github.com/zander-br/markdown-course#inline)
+* [Inline](#inline)
 
-* [Bloco](https://github.com/zander-br/markdown-course#bloco)
+* [Bloco](#bloco)
 
-* [Syntax Highlighting](https://github.com/zander-br/markdown-course#syntax-highlighting)
+* [Syntax Highlighting](#syntax-highlighting)
 
 ### Inline
 
