@@ -32,7 +32,7 @@ A ideia desse projeto, é tentar passar o pouco aprendido para ajudar a comunida
 
 * **[Github](#github)**
 
-* **[Extra](#extras)**
+* **[Extras](#extras)**
 
 * **[Referências](#refer%C3%AAncias)**
 
