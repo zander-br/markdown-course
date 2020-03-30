@@ -32,6 +32,8 @@ A ideia desse projeto, é tentar passar o pouco aprendido para ajudar a comunida
 
 * **[Github](#github)**
 
+* **[Extra](#extras)**
+
 * **[Referências](#refer%C3%AAncias)**
 
 * **[Dicas](#dicas)**
@@ -737,6 +739,48 @@ Curso de markdown no Github
 * [x] Estudar sobre markdown :books:
 * [ ] Deixar uma estrela no repositório :star:
 * [ ] Indicar para os meus amigos :family:
+
+***
+
+## Extras
+
+Algo que não foi mencionado durante esse conteúdo por não se tratar de algo nativo no **Markdown**, porém que muitas vezes acabamos querendo usar para deixar as nossas documentações mais bonitas e atrativas, são os alinhamentos de conteúdos.
+
+No **Markdown** não temos maneira de fazermos o aninhamento dos conteúdos, porém como mencionado inicialmente na introdução do conteúdo, o **Markdown** converte o seu texto em HTML válido, ou seja, assim como na seção de [Imagens](#imagens) podemos fazer uso de tags HTML para extender as funcionalidades do **Markdown**.
+
+Por isso para conseguirmos alinharmos nossos conteúdos em nossas documentações podemos HTML para isso conforme exemplos abaixo.
+
+```markdown
+<p align="center">
+  <img src="images/vinganca.jpg" width="100px;" alt="Seu Madruga"/>
+</p>
+<p align="center">"Eu prefiro morrer que perder a vida"</p>
+```
+
+* **_Resultado_**
+
+<p align="center">
+  <img src="images/chaves.jpg" alt="Chaves"/>
+</p>
+<p align="center">"Eu prefiro morrer que perder a vida"</p>
+
+Acima temos o alinhamento de conteúdos ao centro, nota que não usamos uma **div** pois o alinhamento na div não funciona no [GitHub](https://github.com/).
+
+```markdown
+<p align="right">
+  <img src="images/vinganca.jpg" width="100px;" alt="Seu Madruga"/>
+</p>
+<p align="right">"Eu prefiro morrer que perder a vida"</p>
+```
+
+* **_Resultado_**
+
+<p align="right">
+  <img src="images/chaves.jpg" alt="Chaves"/>
+</p>
+<p align="right">"Eu prefiro morrer que perder a vida"</p>
+
+Da mesma forma também podemos fazer o alinhamento dos conteúdos a direita, mudando apenas a propriedade `align=right`. O alinhamento a esquerda é padrão do **Markdown** então podemos continuar usando nessas situações.
 
 ***
 
