@@ -719,7 +719,7 @@ Estou estou :heart_eyes: esse conteúdo, simplesmente ficou show! :relaxed:
 ```
 * **_Resultado_**
 
-Estou estou :heart_eyes: esse conteúdo, simplesmente ficou show! :relaxed:
+Estou amando :heart_eyes: esse conteúdo, simplesmente ficou show! :relaxed:
 
 Outra coisa que podemos fazer é adicionarmos uma lista de **Todo** das pendências ou coisas que precisam ser desenvolvidas em uma *issues*. Para isso basta adicionar dois colchetes `[]` e entre eles adicionar um espaço. Caso o item tenha sido finalizado basta adiconar uma letra `x`.
 
